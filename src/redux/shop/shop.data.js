@@ -1,5 +1,5 @@
-const SHOP_DATA = [
-    {
+const SHOP_DATA = {
+    haldi: {
       id: 1,
       title: 'Haldi',
       routeName: 'haldi',
@@ -30,7 +30,7 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+mirch:{
       id: 2,
       title: 'Mirch',
       routeName: 'mirch',
@@ -61,7 +61,7 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+dhaniya:{
       id: 3,
       title: 'Dhaniya',
       routeName: 'dhaniya',
@@ -92,7 +92,7 @@ const SHOP_DATA = [
         }
       ]
     },
-    {
+besan:{
       id: 4,
       title: 'Besan',
       routeName: 'besan',
@@ -111,6 +111,6 @@ const SHOP_DATA = [
         },
       ]
     }
-  ];
+};
   
   export default SHOP_DATA;
